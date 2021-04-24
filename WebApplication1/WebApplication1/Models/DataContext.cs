@@ -13,5 +13,7 @@ namespace WebApplication1.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<WebApplication1.Models.Friend> Friends { get; set; }
     }
 }
