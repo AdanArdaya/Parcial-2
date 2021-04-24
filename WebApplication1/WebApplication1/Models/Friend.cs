@@ -9,7 +9,6 @@ namespace WebApplication1.Models
     public class Friend
     {
         [Key]
-        
         public string FrienId { get; set; }
         [Required]
         [MinLength(3)]
@@ -18,6 +17,7 @@ namespace WebApplication1.Models
         [Required]
         public int NikName { get; set; }
         [Required]
+        [DataType(DataType.Date)]
         public DataType Birthday { get; set; }
     }
 }
